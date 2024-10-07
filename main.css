@@ -173,3 +173,23 @@ ul{
         padding-right: 20px;
     }
     
+    #S {
+        width: 50%; /* From 700px to percentage based */
+        height: 40px; /* Keep height fixed */
+        background-color: #F5F5F6;
+    }
+    
+    .ml {
+        margin-left: 2vw; /* Relative margin instead of 70px */
+    }
+    
+    .carousel {
+        width: 100%; /* Make the carousel more flexible */
+    }
+    
+    .abc {
+        width: 100%; /* Images should adjust with the parent */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+
